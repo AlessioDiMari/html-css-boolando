@@ -49,6 +49,99 @@ img{
 
 /* fine navbar */
 
+
+
+/* main */
+
+main{
+    padding: 60px 0px;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.articolo{
+    position: relative;
+}
+
+.foto-articolo{
+    position: relative;
+    width: 447px;
+    height: 645px;
+}
+
+.art-img2{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.articolo:hover .art-img2{
+    display: inline-block;
+}
+
+.preferito{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 40px;
+    background-color: white;
+    padding: 14px;
+}
+
+.articolo:hover .preferito{
+    color: red;
+    z-index: 2;
+}
+
+.sconto{
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    background-color: red;
+    padding: 8px 10px;
+    z-index: 2;
+}
+
+.sostenibile{
+    position: absolute;
+    left: 60px;
+    bottom: 40px;
+    background-color: #008000;
+    padding: 8px 10px;
+    z-index: 2;
+}
+
+.etichetta{
+    color: white;
+    font-weight: bold;
+}
+
+.nome-articolo{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.scontato{
+    font-weight: bold;
+    color: red;
+}
+.norm{
+    text-decoration: line-through;
+}
+
+
+
+
 /* footer */
 footer{
     background-color: #1E1E1E;

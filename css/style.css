@@ -7,8 +7,12 @@
 
 /* navbar */
 nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: #FF6900;
     height: 70px;
+    z-index: 3;
 }
 
 .container{
@@ -55,6 +59,7 @@ img{
 
 main{
     padding: 60px 0px;
+    margin-top: 70px;
 }
 
 .container2{
@@ -138,7 +143,7 @@ main{
 .norm{
     text-decoration: line-through;
 }
-
+ /* fine main */
 
 
 
